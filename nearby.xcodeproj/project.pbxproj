@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		780282A32D0A300C00EE4796 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780282A22D0A300C00EE4796 /* WelcomeViewController.swift */; };
+		780282A62D0A3A6C00EE4796 /* UIViewController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780282A52D0A3A6C00EE4796 /* UIViewController+ext.swift */; };
+		780282A82D0A3BE700EE4796 /* SplashFlowDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780282A72D0A3BE700EE4796 /* SplashFlowDelegate.swift */; };
+		780282AA2D0A484200EE4796 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780282A92D0A484100EE4796 /* Typography.swift */; };
+		78555D8B2D09D79100A50582 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78555D8A2D09D79100A50582 /* TipsView.swift */; };
+		78555D8E2D09DC8500A50582 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78555D8D2D09DC8500A50582 /* WelcomeView.swift */; };
 		7891065C2D091D8F00EABE7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7891065B2D091D8F00EABE7B /* Assets.xcassets */; };
+		78BD36F62D0B649A00AD2092 /* HomeVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BD36F52D0B649A00AD2092 /* HomeVIew.swift */; };
+		78BD36F82D0B64AC00AD2092 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BD36F72D0B64AC00AD2092 /* HomeViewController.swift */; };
+		78BD36FB2D0B652100AD2092 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BD36FA2D0B652100AD2092 /* PlaceTableViewCell.swift */; };
+		78BD36FE2D0B6CCC00AD2092 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BD36FD2D0B6CCC00AD2092 /* PlaceModel.swift */; };
 		78CD1AD82D088111008B0B5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CD1AD72D088111008B0B5B /* AppDelegate.swift */; };
 		78CD1ADA2D088111008B0B5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CD1AD92D088111008B0B5B /* SceneDelegate.swift */; };
 		78CD1ADC2D088111008B0B5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CD1ADB2D088111008B0B5B /* ViewController.swift */; };
@@ -18,7 +28,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		780282A22D0A300C00EE4796 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		780282A52D0A3A6C00EE4796 /* UIViewController+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ext.swift"; sourceTree = "<group>"; };
+		780282A72D0A3BE700EE4796 /* SplashFlowDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashFlowDelegate.swift; sourceTree = "<group>"; };
+		780282A92D0A484100EE4796 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		78555D8A2D09D79100A50582 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		78555D8D2D09DC8500A50582 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		7891065B2D091D8F00EABE7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		78BD36F52D0B649A00AD2092 /* HomeVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVIew.swift; sourceTree = "<group>"; };
+		78BD36F72D0B64AC00AD2092 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		78BD36FA2D0B652100AD2092 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
+		78BD36FD2D0B6CCC00AD2092 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		78CD1AD42D088111008B0B5B /* nearby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nearby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CD1AD72D088111008B0B5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78CD1AD92D088111008B0B5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +61,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		780282A42D0A3A4000EE4796 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				780282A52D0A3A6C00EE4796 /* UIViewController+ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		78555D892D09D76C00A50582 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				78555D8A2D09D79100A50582 /* TipsView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		78555D8C2D09DC6C00A50582 /* WelcomeView */ = {
+			isa = PBXGroup;
+			children = (
+				78555D8D2D09DC8500A50582 /* WelcomeView.swift */,
+				780282A22D0A300C00EE4796 /* WelcomeViewController.swift */,
+			);
+			path = WelcomeView;
+			sourceTree = "<group>";
+		};
 		789106562D09167F00EABE7B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				7891065B2D091D8F00EABE7B /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		78BD36F42D0B644500AD2092 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				78BD36F92D0B650700AD2092 /* TableViewCell */,
+				78BD36F52D0B649A00AD2092 /* HomeVIew.swift */,
+				78BD36F72D0B64AC00AD2092 /* HomeViewController.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		78BD36F92D0B650700AD2092 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				78BD36FA2D0B652100AD2092 /* PlaceTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		78BD36FC2D0B6CB500AD2092 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				78BD36FD2D0B6CCC00AD2092 /* PlaceModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		78CD1ACB2D088111008B0B5B = {
@@ -84,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				78CD1AEE2D0882F8008B0B5B /* Colors.swift */,
+				780282A92D0A484100EE4796 /* Typography.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -91,6 +163,9 @@
 		78CD1AED2D0882DF008B0B5B /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				78BD36FC2D0B6CB500AD2092 /* Models */,
+				780282A42D0A3A4000EE4796 /* Extensions */,
+				78555D892D09D76C00A50582 /* Components */,
 				78CD1AF02D088317008B0B5B /* Coordinator */,
 			);
 			path = Features;
@@ -107,6 +182,8 @@
 		78CD1AF42D088361008B0B5B /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				78555D8C2D09DC6C00A50582 /* WelcomeView */,
+				78BD36F42D0B644500AD2092 /* HomeView */,
 				78CD1AF52D08836B008B0B5B /* Splash */,
 			);
 			path = Scenes;
@@ -117,6 +194,7 @@
 			children = (
 				78CD1AF62D088381008B0B5B /* SplashView.swift */,
 				78CD1AF82D088393008B0B5B /* SplashViewController.swift */,
+				780282A72D0A3BE700EE4796 /* SplashFlowDelegate.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -191,11 +269,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				78CD1AF22D088334008B0B5B /* NearbyFlowController.swift in Sources */,
+				780282A62D0A3A6C00EE4796 /* UIViewController+ext.swift in Sources */,
+				78BD36FE2D0B6CCC00AD2092 /* PlaceModel.swift in Sources */,
+				780282A32D0A300C00EE4796 /* WelcomeViewController.swift in Sources */,
 				78CD1ADC2D088111008B0B5B /* ViewController.swift in Sources */,
 				78CD1AEF2D0882F8008B0B5B /* Colors.swift in Sources */,
+				78BD36F82D0B64AC00AD2092 /* HomeViewController.swift in Sources */,
+				780282A82D0A3BE700EE4796 /* SplashFlowDelegate.swift in Sources */,
 				78CD1AD82D088111008B0B5B /* AppDelegate.swift in Sources */,
+				78BD36F62D0B649A00AD2092 /* HomeVIew.swift in Sources */,
+				78555D8E2D09DC8500A50582 /* WelcomeView.swift in Sources */,
+				78555D8B2D09D79100A50582 /* TipsView.swift in Sources */,
+				78BD36FB2D0B652100AD2092 /* PlaceTableViewCell.swift in Sources */,
 				78CD1ADA2D088111008B0B5B /* SceneDelegate.swift in Sources */,
 				78CD1AF92D088393008B0B5B /* SplashViewController.swift in Sources */,
+				780282AA2D0A484200EE4796 /* Typography.swift in Sources */,
 				78CD1AF72D088381008B0B5B /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
